@@ -4,7 +4,7 @@
 
 # Intro
 
-This mini-project was completed late Feb 2024 as part of General Assembly's Bootcamp, at the the start of Week 3 in our course. The CSS section was pre-built out for us, and the focus of this project was using our knowledge of DOM manipulation and Javascript.
+This mini-project was completed late Feb 2024 as part of General Assembly's Bootcamp, at the the start of Week 3 in our course. The CSS section was pre-built out for us, and the focus of this project was using our knowledge of DOM manipulation and JavaScript.
 
 ---
 
@@ -70,7 +70,6 @@ The screenshot below shows how we create a variable called memory which is equal
 In other words, each time a new history element is created, it captures the value of memory at that specific moment. When a history element is double-clicked, it will use the memory value associated with that particular history element, not the global memory variable.
 
 ![Memory Var Screenshot](assets/memory-var.png)
-
 
 ## Passing Along Parameters
 
