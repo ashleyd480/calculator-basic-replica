@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h2>My Awesome Calculator</h2>
+      <div>
+        <label for="switch">Dark Mode</label>
+        <input class="switch" type="checkbox">
+      </div>
+    </header>
+    <main class="main">
+    <div class="calculator">
+      <div class="row">
+        <div class="display"></div>
+      </div>
+      <div class="row">
+        <div class="button number-button">7</div>
+        <div class="button number-button">8</div>
+        <div class="button number-button">9</div>
+        <div class="button operation-button">/</div>
+      </div>
+      <div class="row">
+        <div class="button number-button">4</div>
+        <div class="button number-button">5</div>
+        <div class="button number-button">6</div>
+        <div class="button operation-button">*</div>
+      </div>
+      <div class="row">
+        <div class="button number-button">1</div>
+        <div class="button number-button">2</div>
+        <div class="button number-button">3</div>
+        <div class="button operation-button">-</div>
+      </div>
+      <div class="row">
+        <div class="button number-button">0</div>
+        <div id="clear" class="clear-button">C</div>
+        <div id="equals" class="operation-button">=</div>
+        <div class="button operation-button">+</div>
+      </div>
+    </div>
+
+    <aside class="aside">
+      <h4>History</h4>
+      <div class="history-container">
+          <div class="history-buttons">
+            <button class="clear-history">clear all history</button>
+          </div>
+          <div class="history-list"></div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <h4>Made by </h4>
+  </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
